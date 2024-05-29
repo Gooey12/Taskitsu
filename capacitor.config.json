@@ -1,0 +1,10 @@
+{
+  "appId": "xyz.gooey12.taskitsu",
+  "appName": "Taskitsu",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
