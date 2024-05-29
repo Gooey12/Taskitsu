@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+
+html, body {
+  background-color: rgb(0, 153, 255) !important;
+  padding: 0;
+  margin: 0;
+
+  user-select: none;
+}
+
+li {
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 580%;
+  color: rgb(255, 255, 255);
+
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.title-offca {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 580%;
+  color: rgb(0, 0, 0);
+
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.offca {
+  filter: invert();
+}
+
+.link {
+  font-size: 300%;
+}
+
+.link-title {
+  font-size: 333%;
+}
+
+.content {
+  align-items: center;
+  border: 1px solid black;
+  width: 85%;
+  height: 1325px;
+}
+
+.Inputs {
+  margin-top: 50px;
+  align-items: center;
+  display: inline-flex;
+}
+
+.userInput {
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 250%;
+
+  width: 85%;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 0;
+  line-height: 50px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.addTask {
+  width: 12%;
+  height: 60px;
+  font-size: 280%;
+  box-sizing: border-box;
+  padding: 0;
+  line-height: 50px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 320%;
+}
+
+#userInput, #addTask {
+  padding: 0;
+  line-height: 60px;
+}
